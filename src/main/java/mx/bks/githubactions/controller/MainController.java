@@ -11,4 +11,9 @@ public class MainController {
     public String welcome() {
         return "Hello World!";
     }
+
+    @GetMapping("/saludar")
+    public String saludar() {
+        return "Hello World!";
+    }
 }
